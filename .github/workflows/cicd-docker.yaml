@@ -32,7 +32,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: lamdb/it4409-sample:staging
+          tags: uroraa/it4409-be-user-crud:staging
 
   deploy:
     name: Deploy to Server
